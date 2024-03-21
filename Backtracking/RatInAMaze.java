@@ -34,6 +34,11 @@ public class RatInAMaze {
    }
 
     //Directions - DLRU
+    //D-DOWN
+    //L-LEFT
+    //R-RIGHT
+    //U-UP
+
     static void ratInAMaze(int mat[][], boolean vis[][], int i, int j, int row, int col, String path){
 
         if(i == row-1 && j== col-1){ //bottom right corner reached
